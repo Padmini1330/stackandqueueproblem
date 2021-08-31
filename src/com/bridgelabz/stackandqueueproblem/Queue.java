@@ -24,6 +24,21 @@ public class Queue<K>
 		tail = newNode;
 
 	}
+	
+	public void dequeue() 
+	{
+		INode previousNode = null, currentNode = head;
+		while (currentNode.getNext() != null) 
+		{
+			previousNode = currentNode;
+			currentNode = currentNode.getNext();
+		}
+		previousNode.setNext(null);
+		tail = previousNode;
+		System.out.println("deleted " + currentNode.getKey());
+		currentNode = null;
+	}
+
 
 	public void printMyNodes() 
 	{
