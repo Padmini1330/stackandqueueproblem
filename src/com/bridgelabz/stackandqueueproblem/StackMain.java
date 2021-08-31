@@ -17,9 +17,13 @@ public class StackMain
 		myQueue.enQueue(mysecondNode);
 		myQueue.enQueue(mythirdNode);
 		myQueue.printMyNodes();
+		myQueue.dequeue();
+		myQueue.dequeue();
+		
 	}
 
 	
 	
 	
+
 }
