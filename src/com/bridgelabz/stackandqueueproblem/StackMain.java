@@ -9,14 +9,14 @@ public class StackMain
 		Node<Integer> myfirstNode = new Node<>(70);
 		Node<Integer> mysecondNode = new Node<>(30);
 		Node<Integer> mythirdNode = new Node<>(56);
-		Stack<Integer> myStack = new Stack<Integer>();
 		
-		myStack.push(myfirstNode);
-		myStack.push(mysecondNode);
-		myStack.push(mythirdNode);
-		myStack.printNodes();
-		myStack.popAll();
-		myStack.printNodes();
+		
+		Stack<Integer> myStack = new Stack<Integer>();
+		Queue<Integer> myQueue = new Queue<Integer>();
+		myQueue.enQueue(myfirstNode);
+		myQueue.enQueue(mysecondNode);
+		myQueue.enQueue(mythirdNode);
+		myQueue.printMyNodes();
 	}
 
 	
