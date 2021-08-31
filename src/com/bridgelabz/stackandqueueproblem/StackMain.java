@@ -14,7 +14,12 @@ public class StackMain
 		myStack.push(myfirstNode);
 		myStack.push(mysecondNode);
 		myStack.push(mythirdNode);
-		myStack.printMyNodes();
+		myStack.printNodes();
+		myStack.popAll();
+		myStack.printNodes();
 	}
 
+	
+	
+	
 }
