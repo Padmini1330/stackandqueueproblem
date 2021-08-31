@@ -10,6 +10,7 @@ public class StackMain
 		Node<Integer> mysecondNode = new Node<>(30);
 		Node<Integer> mythirdNode = new Node<>(56);
 		Stack<Integer> myStack = new Stack<Integer>();
+		
 		myStack.push(myfirstNode);
 		myStack.push(mysecondNode);
 		myStack.push(mythirdNode);
